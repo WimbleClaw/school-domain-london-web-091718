@@ -20,5 +20,8 @@ class School
     @roster[grade]
   end
 
-  
+  def sort(students)
+    to_sort = @roster[grade]
+    to_sort.sort
+  end
 end
